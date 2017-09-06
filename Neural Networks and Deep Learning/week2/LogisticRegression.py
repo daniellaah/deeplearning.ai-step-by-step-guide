@@ -48,8 +48,6 @@ class LogisticRegression():
             cost = self.__compute_cost(A, Y)
             # backward_propagation
             grads = self.__backward_propagation(A, X, Y)
-            dw = grads["dw"]
-            db = grads["db"]
             # update parameters
             self.__update_parameters(grads, learning_rate)
             # print cost

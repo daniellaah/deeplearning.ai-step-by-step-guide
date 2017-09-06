@@ -42,6 +42,7 @@ y_train = train_set_y
 X_test = test_set_x_flatten/255
 y_test = test_set_y
 # Please note that the above code is from the programming assignment
+
 import LogisticRegression
 num_iter = 2001
 learning_rate = 0.005
