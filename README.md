@@ -1,4 +1,4 @@
-![](http://7xrrje.com1.z0.glb.clouddn.com/deeplearning-ai.png?imageMogr/v2/thumbnail/!45p)
+![](http://7xrrje.com1.z0.glb.clouddn.com/deeplearning-ai.png)
 # deeplearning.ai step-by-step guide
 This project provides a step-by-step guide for you easy to follow the Coursera Deep Learning Specialization course. Learning notes and python code will be included in this repo as well as other helpful references.  For more details about the series courses:
 - [deeplearning.ai: Announcing new Deep Learning courses on Coursera](https://medium.com/@andrewng/deeplearning-ai-announcing-new-deep-learning-courses-on-coursera-43af0a368116)
