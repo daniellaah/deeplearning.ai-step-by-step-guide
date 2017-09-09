@@ -30,8 +30,8 @@ Python is used for this course. Coursera provides a cloud jupyter notebook envir
 All the materials of each course including notes/code can be found in the corresponding subfolder. Please note that the code is not solutions to the assignment but you can get hints from it.
 
 ## Getting Started
-### Course1: Neural Networks and Deep Learning
-- Week 1: Introduction to deep learning
+### [Course1: Neural Networks and Deep Learning](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning)
+- [Week 1: Introduction to deep learning](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning/week1)
 - [Week 2: Neural Networks Basics](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning/week2)
 - [Week 3: Shallow neural networks](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning/week3)
 - [Week 4: Deep Neural Networks](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning/week4)
