@@ -1,4 +1,4 @@
-![](http://7xrrje.com1.z0.glb.clouddn.com/deeplearning-ai.png)
+![](http://7xrrje.com1.z0.glb.clouddn.com/deeplearning-ai.png?imageMogr/v2/thumbnail/!45p)
 # deeplearning.ai step-by-step guide
 This project provides a step-by-step guide for you easy to follow the Coursera Deep Learning Specialization course. Learning notes and python code will be included in this repo as well as other helpful references.  For more details about the series courses:
 - [deeplearning.ai: Announcing new Deep Learning courses on Coursera](https://medium.com/@andrewng/deeplearning-ai-announcing-new-deep-learning-courses-on-coursera-43af0a368116)
@@ -12,7 +12,7 @@ This project provides a step-by-step guide for you easy to follow the Coursera D
 - [Getting started](#getting-started)
   - [Course1: Neural Networks and Deep Learning](#course1-neural-networks-and-deep-learning)
   - [Course2: Improving Deep Neural Networks](#course2-improving-deep-neural-networks)
-  - [Course3: Structuring Machine Learning Projects](#course3:-structuring-machine learning-projects)
+  - [Course3: Structuring Machine Learning Projects](#course3-structuring-machine learning-projects)
   - [Course4: Convolutional Neural Networks](#course4-convolutional-neural-networks)
   - [Course5: Sequence Models](#course5-sequence-models)
 
