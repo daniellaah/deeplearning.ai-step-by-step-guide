@@ -1,3 +1,4 @@
+import numpy as np
 def sigmoid(z):
     return 1. / (1.+np.exp(-z))
 
@@ -24,7 +25,7 @@ class SimpleNeuralNetwork():
         A1 = np.tanh(Z1)
         Z2 = np.dot(W2, A1) + b2
         A2 = sigmoid(Z2)
-        cache = {'Z1': Z1,'A1': A1,'Z2': Z2,'A2': A2}
+        cache = {'X': X, 'Z1': Z1,'A1': A1,'Z2': Z2,'A2': A2}
         return A2, cache
 
     def __compute_cost(self, A2, Y):
@@ -41,6 +42,7 @@ class SimpleNeuralNetwork():
     def __backward_propagation(self, cache, Y):
         A1, A2 = cache['A1'], cache['A2']
         W2 = self.paramters['W2']
+        X = cache['X']
         m = X.shape[1]
         # backward propagation computes gradients
         dZ2 = A2 - Y

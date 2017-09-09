@@ -1,18 +1,12 @@
 # Package imports
 import numpy as np
-import matplotlib.pyplot as plt
-from testCases import *
-import sklearn
-import sklearn.datasets
-import sklearn.linear_model
-from planar_utils import plot_decision_boundary, sigmoid, load_planar_dataset, load_extra_datasets
-%matplotlib inline
+from planar_utils import load_planar_dataset
 
 np.random.seed(1) # set a seed so that the results are consistent
 X, Y = load_planar_dataset()
 # Please note that the above code is from the programming assignment
 
-import SimpleNeuralNetwork
+from SimpleNeuralNetwork import SimpleNeuralNetwork
 np.random.seed(3)
 num_iter = 10001
 learning_rate = 1.2
