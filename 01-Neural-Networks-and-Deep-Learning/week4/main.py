@@ -1,19 +1,23 @@
 import time
-import numpy as np
 import h5py
-import matplotlib.pyplot as plt
-import scipy
-from PIL import Image
-from scipy import ndimage
-from dnn_app_utils_v2 import *
+import numpy as np
 
-%matplotlib inline
-plt.rcParams['figure.figsize'] = (5.0, 4.0) # set default size of plots
-plt.rcParams['image.interpolation'] = 'nearest'
-plt.rcParams['image.cmap'] = 'gray'
+def load_data():
+    train_dataset = h5py.File('datasets/train_catvnoncat.h5', "r")
+    train_set_x_orig = np.array(train_dataset["train_set_x"][:]) # your train set features
+    train_set_y_orig = np.array(train_dataset["train_set_y"][:]) # your train set labels
 
-%load_ext autoreload
-%autoreload 2
+    test_dataset = h5py.File('datasets/test_catvnoncat.h5', "r")
+    test_set_x_orig = np.array(test_dataset["test_set_x"][:]) # your test set features
+    test_set_y_orig = np.array(test_dataset["test_set_y"][:]) # your test set labels
+
+    classes = np.array(test_dataset["list_classes"][:]) # the list of classes
+
+    train_set_y_orig = train_set_y_orig.reshape((1, train_set_y_orig.shape[0]))
+    test_set_y_orig = test_set_y_orig.reshape((1, test_set_y_orig.shape[0]))
+
+    return train_set_x_orig, train_set_y_orig, test_set_x_orig, test_set_y_orig, classes
+
 
 np.random.seed(1)
 
@@ -44,7 +48,7 @@ print ("train_x's shape: " + str(train_x.shape))
 print ("test_x's shape: " + str(test_x.shape))
 # Please note that the above code is from the programming assignment
 
-import DeepNeuralNetwork
+from DeepNeuralNetwork import DeepNeuralNetwork
 layers_dims = (12288, 20, 7, 5, 1)
 # layers_dims = (12288, 10, 1)
 # layers_dims = [12288, 20, 7, 5, 1] #  5-layer model
@@ -58,6 +62,15 @@ print('train accuracy: {:.2f}%'.format(clf.accuracy_score(train_x, train_y)*100)
 print('test accuracy: {:.2f}%'.format(clf.accuracy_score(test_x, test_y)*100))
 
 # output
+# Number of training examples: 209
+# Number of testing examples: 50
+# Each image is of size: (64, 64, 3)
+# train_x_orig shape: (209, 64, 64, 3)
+# train_y shape: (1, 209)
+# test_x_orig shape: (50, 64, 64, 3)
+# test_y shape: (1, 50)
+# train_x's shape: (12288, 209)
+# test_x's shape: (12288, 50)
 # Cost after iteration 0: 0.771749
 # Cost after iteration 100: 0.672053
 # Cost after iteration 200: 0.648263

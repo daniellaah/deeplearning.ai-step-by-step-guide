@@ -1,3 +1,4 @@
+import numpy as np
 def sigmoid(z):
     return 1. / (1.+np.exp(-z))
 
@@ -28,7 +29,7 @@ class DeepNeuralNetwork():
         L = len(layers_dim)
         parameters = {}
         for l in range(1, L):
-            parameters['W'+str(l)] = np.random.randn(layers_dim[l], layers_dim[l-1]) / np.sqrt(layers_dims[l-1])
+            parameters['W'+str(l)] = np.random.randn(layers_dim[l], layers_dim[l-1]) / np.sqrt(layers_dim[l-1])
             parameters['b'+str(l)] = np.zeros((layers_dim[l], 1))
         return parameters
 
