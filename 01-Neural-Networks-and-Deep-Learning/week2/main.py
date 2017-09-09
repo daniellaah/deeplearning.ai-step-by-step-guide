@@ -1,11 +1,7 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import h5py
-import scipy
-from PIL import Image
-from scipy import ndimage
+# import scipy
+# from PIL import Image
+# from scipy import ndimage
 from lr_utils import load_dataset
-%matplotlib inline
 
 # Loading the data (cat/non-cat)
 train_set_x_orig, train_set_y, test_set_x_orig, test_set_y, classes = load_dataset()
@@ -43,7 +39,7 @@ X_test = test_set_x_flatten/255
 y_test = test_set_y
 # Please note that the above code is from the programming assignment
 
-import LogisticRegression
+from LogisticRegression import LogisticRegression
 num_iter = 2001
 learning_rate = 0.005
 clf = LogisticRegression().fit(X_train, y_train, num_iter, learning_rate, True, 500)
@@ -53,6 +49,19 @@ test_acc = clf.accuracy_score(X_test, y_test)
 print('testing acc: {}'.format(test_acc))
 
 # output:
+# Number of training examples: m_train = 209
+# Number of testing examples: m_test = 50
+# Height/Width of each image: num_px = 64
+# Each image is of size: (64, 64, 3)
+# train_set_x shape: (209, 64, 64, 3)
+# train_set_y shape: (1, 209)
+# test_set_x shape: (50, 64, 64, 3)
+# test_set_y shape: (1, 50)
+# train_set_x_flatten shape: (12288, 209)
+# train_set_y shape: (1, 209)
+# test_set_x_flatten shape: (12288, 50)
+# test_set_y shape: (1, 50)
+# sanity check after reshaping: [17 31 56 22 33]
 # Cost after iteration 0: 0.693147
 # Cost after iteration 500: 0.303273
 # Cost after iteration 1000: 0.214820
