@@ -17,7 +17,7 @@ This project provides a step-by-step guide for you easy to follow the Coursera D
   - [Course5: Sequence Models](#course5-sequence-models)
 
 ## Prerequisite
-Some basic machine learning background is good for understanding the materials. Since this is a deep learning course, machine learning knowlodge will not be covered much. For you who do not have any machine learning background, I think Andrew Ng's [Machine Learning course](https://www.coursera.org/learn/machine-learning) is a great starting point. Hope you can find some helpful leanring notes here: [Coursera机器学习笔记(〇)-目录](http://daniellaah.github.io/2016/Machine-Learning-Andrew-Ng-My-Notes.html)
+Some basic machine learning background is good for understanding the materials. Since this is a deep learning course, machine learning knowlodge will not be covered much. For you who do not have any machine learning background, I think Andrew Ng's [Machine Learning course](https://www.coursera.org/learn/machine-learning) is a great starting point. Hope you can find some helpful learning notes here: [Coursera机器学习笔记(〇)-目录](http://daniellaah.github.io/2016/Machine-Learning-Andrew-Ng-My-Notes.html)
 
 ## Programming Environment
 Python is used for this course. Coursera provides a cloud jupyter notebook environment called [coursera hub](https://www.coursera.org/learn/neural-networks-deep-learning/supplement/oABOh/programming-assignment-faq), you can finish your programming assignments directly on the coursera website. The following package/framework should be installed if you would like to run code on your own environment:
@@ -46,3 +46,7 @@ All the materials of each course including notes/code can be found in the corres
 N/A
 ### Course5: Sequence Models
 N/A
+
+
+## License
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
