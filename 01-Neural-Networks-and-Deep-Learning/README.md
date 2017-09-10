@@ -10,5 +10,5 @@
 
 ## Code
 - [Week 2: Neural Networks Basics](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/tree/master/01-Neural-Networks-and-Deep-Learning/week2)
-- [Week 3: Shallow neural networks](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/tree/master/01-Neural-Networks-and-Deep-Learning/week2)
-- [Week 4: Deep Neural Networks](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/tree/master/01-Neural-Networks-and-Deep-Learning/week2)
+- [Week 3: Shallow neural networks](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/tree/master/01-Neural-Networks-and-Deep-Learning/week3)
+- [Week 4: Deep Neural Networks](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/tree/master/01-Neural-Networks-and-Deep-Learning/week4)
