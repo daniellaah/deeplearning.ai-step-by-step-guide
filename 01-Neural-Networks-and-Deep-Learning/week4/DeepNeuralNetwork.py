@@ -116,8 +116,7 @@ class DeepNeuralNetwork():
         grads = {}
         # backward propagate last layer
         AL, A_prev = caches[L-1]['A'], caches[L-2]['A']
-        dAL =  - (Y/AL - (1-Y)/(1-AL))
-        grads['dZ'+str(L-1)] = self.__activation_backward(dAL, caches[L-1]['Z'], self.activations[-1])
+        grads['dZ'+str(L-1)] = AL - Y
         grads['dA'+str(L-2)], \
         grads['dW'+str(L-1)], \
         grads['db'+str(L-1)] = self.__linear_backward(grads['dZ'+str(L-1)],
