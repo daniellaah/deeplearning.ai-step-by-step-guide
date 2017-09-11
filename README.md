@@ -35,13 +35,13 @@ All the materials of each course including notes/code can be found in the corres
 - [Week 2: Neural Networks Basics](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning/week2)
 - [Week 3: Shallow neural networks](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning/week3)
 - [Week 4: Deep Neural Networks](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/01-Neural-Networks-and-Deep-Learning/week4)
-### Course2: Improving Deep Neural Networks
-- [Wee1: Practical aspects of Deep Learning]()
-- [Wee2: Optimization algorithms]()
-- [Wee3: Hyperparameter tuning, Batch Normalization and Programming Frameworks]()
+### [Course2: Improving Deep Neural Networks](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/tree/master/02-Improving-Deep-Neural-Networks)
+- [Wee1: Practical aspects of Deep Learning](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/02-Improving-Deep-Neural-Networks/week1)
+- [Wee2: Optimization algorithms](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/02-Improving-Deep-Neural-Networks/week2)
+- [Wee3: Hyperparameter tuning, Batch Normalization and Programming Frameworks](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/02-Improving-Deep-Neural-Networks/week3)
 ### Course3: Structuring Machine Learning Projects
-- [Week1: ML Strategy (1)]()
-- [Week2: ML Strategy (2)]()
+- [Week1: ML Strategy (1)](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/02-Structuring-Machine-Learning-Projects/week1)
+- [Week2: ML Strategy (2)](https://github.com/daniellaah/deeplearning.ai-notes-code/tree/master/02-Structuring-Machine-Learning-Projects/week2)
 ### Course4: Convolutional Neural Networks
 N/A
 ### Course5: Sequence Models
