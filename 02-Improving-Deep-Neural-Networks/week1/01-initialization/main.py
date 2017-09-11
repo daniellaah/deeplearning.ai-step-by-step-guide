@@ -5,12 +5,12 @@ from DeepNeuralNetwork import DeepNeuralNetwork
 
 
 if __name__ == '__main__':
+    np.seterr(all='ignore')
     # ----------------------------load data-------------------------
     train_X, train_Y, test_X, test_Y = load_dataset(plot_data=False)
 
     layers_dims = [train_X.shape[0], 10, 5, 1]
     activations = ['relu', 'relu', 'sigmoid']
-    np.seterr(all='ignore')
 
     # --------------------------zero init----------------------------
     dnn1 = DeepNeuralNetwork(layers_dims, activations, init='zero')

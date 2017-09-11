@@ -12,8 +12,8 @@ python3 main.py
 # he init accuracy on test: 0.96
 ```
 
-![](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/blob/master/02-Improving-Deep-Neural-Networks/week1/img/zero-init.png)
+![](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/blob/master/02-Improving-Deep-Neural-Networks/week1/01-initialization/img/zero-init.png)
 
-![](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/blob/master/02-Improving-Deep-Neural-Networks/week1/img/large-random-init.png)
+![](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/blob/master/02-Improving-Deep-Neural-Networks/week1/01-initialization/img/large-random-init.png)
 
-![](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/blob/master/02-Improving-Deep-Neural-Networks/week1/img/he-init.png)
+![](https://github.com/daniellaah/deeplearning.ai-step-by-step-guide/blob/master/02-Improving-Deep-Neural-Networks/week1/01-initialization/img/he-init.png)
